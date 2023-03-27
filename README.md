@@ -1,3 +1,5 @@
+Project is currently live on: https://bonte7.github.io/display-tester/index.html
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
