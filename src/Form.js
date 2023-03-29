@@ -23,7 +23,7 @@ const Form = ({handleSubmitEvent, handleChangeEvent, handleCheckbox, chosenDispl
                 </label>
                 <label>
                     Page ID:
-                    <input type="text" name="pageId" placeholder="(Not Required for WAR)" onChange={handleChangeEvent}></input>
+                    <input type="text" name="pageId" onChange={handleChangeEvent}></input>
                 </label>
                 <label>
                     Display Type:

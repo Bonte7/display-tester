@@ -61,20 +61,20 @@ function App() {
   const handleSubmit = (e) => {
     
       e.preventDefault();
-      for(let i = 0; i <= 4; i++) {
+
         setInputs({
           ...inputs,
           merchantGroupId: e.target[0].value,
           merchantId: e.target[1].value,
           apiKey: e.target[2].value,
-          pageId: e.target[3].value,
+          pageId: e.target[3].value === "" ? "__PAGE_ID__" : e.target[3].value,
           displayType: e.target[4].value,
           simpleSnap: options.simpleSnap,
           verticalPagination: options.verticalPagination,
           condensed: options.condensed,
           reviewFilter: options.reviewFilter
         });
-      }
+
       
   }
 
