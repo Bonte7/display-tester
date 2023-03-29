@@ -76,6 +76,11 @@
   color: rgb(0, 0, 0);
 }
 
+.results-url {
+  font-size: small;
+  color: #4c4c4cb4;
+}
+
 .display-container {
   display: flex;
   flex-direction: column;
